@@ -1,15 +1,15 @@
-LIBRARY ieee;
-USE ieee.std_logic_1164.all;
+library ieee;
+use ieee.std_logic_1164.all;
 
-ENTITY two_to_one_mux IS
-  PORT (
-    SW   : IN STD_LOGIC_VECTOR(9 DOWNTO 0);    -- X is SW[3:0] and Y is SW[7:4] and S is SW[8]
-    LEDR : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)    -- M IS LEDR[3:0]
-  );
-END two_to_one_mux;
+entity two_to_one_mux is
+    port (
+        SW   : in  std_logic_vector(9 downto 0);
+        LEDR : out std_logic_vector(3 downto 0)
+    );
+end entity two_to_one_mux;
 
-
-ARCHITECTURE Behavior OF two_to_one_mux IS
-BEGIN 
-  LEDR(3 DOWNTO 0) <= SW(3 DOWNTO 0) WHEN (SW(8) = '0') ELSE SW(7 DOWNTO 4);
-END Behavior;
+architecture rtl of two_to_one_mux is
+begin
+    LEDR <= SW(3 downto 0) when SW(8) = '0'
+            else SW(7 downto 4);
+end architecture rtl;

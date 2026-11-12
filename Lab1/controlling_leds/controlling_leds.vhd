@@ -1,16 +1,14 @@
-LIBRARY ieee;
-USE ieee.std_logic_1164.all;
+library ieee;
+use ieee.std_logic_1164.all;
 
+entity controlling_leds is
+    port (
+        SW   : in  std_logic_vector(9 downto 0);
+        LEDR : out std_logic_vector(9 downto 0)
+    );
+end entity controlling_leds;
 
-ENTITY controlling_leds IS
-  PORT ( 
-    SW   : IN STD_LOGIC_VECTOR(9 DOWNTO 0);
-    LEDR : OUT STD_LOGIC_VECTOR(9 DOWNTO 0)
-  );
-END controlling_leds;
-
-
-ARCHITECTURE Behavior OF controlling_leds IS
-BEGIN
-  LEDR <= SW;
-END Behavior;
+architecture rtl of controlling_leds is
+begin
+    LEDR <= SW;
+end architecture rtl;
