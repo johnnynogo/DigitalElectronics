@@ -1,0 +1,90 @@
+# Compile of synchronous_counter.vhd was successful.
+# Compile of tb_synchronous_counter.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_synchronous_counter
+# vsim -voptargs="+acc" work.tb_synchronous_counter 
+# Start time: 13:33:44 on Nov 17,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Error: (vopt-11) Could not find work.tb_synchronous_counter.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# End time: 13:33:46 on Nov 17,2026, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 3
+# Compile of synchronous_counter.vhd was successful.
+# Compile of tb_synchronous_counter.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_synchronous_counter
+# vsim -voptargs="+acc" work.tb_synchronous_counter 
+# Start time: 13:34:41 on Nov 17,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Error: (vopt-11) Could not find work.tb_synchronous_counter.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# End time: 13:34:42 on Nov 17,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_synchronous_counter
+# vsim -voptargs="+acc" work.tb_synchronous_counter 
+# Start time: 13:37:22 on Nov 17,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Error: (vopt-11) Could not find work.tb_synchronous_counter.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# vsim -voptargs="+acc" work.tb_synchronous_counter 
+# Start time: 13:34:41 on Nov 17,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Error: (vopt-11) Could not find work.tb_synchronous_counter.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# End time: 13:34:42 on Nov 17,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+
+
+# End time: 13:37:24 on Nov 17,2026, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 2
+# vsim -voptargs="+acc" work.tb_up_down_counter
+add wave *
+run 200 ns
+# No Design Loaded!
+# Compile of synchronous_counter.vhd was successful.
+# Compile of tb_synchronous_counter.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# vsim -voptargs="+acc" work.tb_up_down_counter
+add wave *
+run 200 ns
+# No Design Loaded!
+vdir work
+# ** Error: (vdir-11) Could not find work.work.
+# Errors: 1, Warnings: 0
+vdir -lib work
+# Library vendor : Model Technology
+# Maximum unnamed designs : 3
+# ENTITY synchronous_counter
+# ENTITY tb_up_down_counter
+vsim -voptargs=+acc work.tb_up_down_counter
+# vsim -voptargs="+acc" work.tb_up_down_counter 
+# Start time: 13:41:19 on Nov 17,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_up_down_counter(sim)#1
+# Loading work.synchronous_counter(rtl)#1
+add wave *
+run 200 ns
+# image file format "bmp" is unknown
+# image file format "bmp" is unknown
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/s366527/Documents/DigitalElectronics/Lab2/synchronous_counter/wave.do
+# End time: 13:46:52 on Nov 17,2026, Elapsed time: 0:05:33
+# Errors: 0, Warnings: 3
