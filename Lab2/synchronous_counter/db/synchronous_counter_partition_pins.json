@@ -1,0 +1,161 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "count_val[0]",
+					"strict" : false
+				},
+				{
+					"name" : "count_val[1]",
+					"strict" : false
+				},
+				{
+					"name" : "count_val[2]",
+					"strict" : false
+				},
+				{
+					"name" : "count_val[3]",
+					"strict" : false
+				},
+				{
+					"name" : "count_val[4]",
+					"strict" : false
+				},
+				{
+					"name" : "count_val[5]",
+					"strict" : false
+				},
+				{
+					"name" : "count_val[6]",
+					"strict" : false
+				},
+				{
+					"name" : "count_val[7]",
+					"strict" : false
+				},
+				{
+					"name" : "count_val[8]",
+					"strict" : false
+				},
+				{
+					"name" : "count_val[9]",
+					"strict" : false
+				},
+				{
+					"name" : "count_val[10]",
+					"strict" : false
+				},
+				{
+					"name" : "count_val[11]",
+					"strict" : false
+				},
+				{
+					"name" : "count_val[12]",
+					"strict" : false
+				},
+				{
+					"name" : "count_val[13]",
+					"strict" : false
+				},
+				{
+					"name" : "count_val[14]",
+					"strict" : false
+				},
+				{
+					"name" : "count_val[15]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "clear",
+					"strict" : false
+				},
+				{
+					"name" : "load",
+					"strict" : false
+				},
+				{
+					"name" : "enable",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[1]",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[2]",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[3]",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[4]",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[5]",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[6]",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[7]",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[8]",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[9]",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[10]",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[11]",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[12]",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[13]",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[14]",
+					"strict" : false
+				},
+				{
+					"name" : "init_val[15]",
+					"strict" : false
+				},
+				{
+					"name" : "up_dn",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
