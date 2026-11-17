@@ -1,5 +1,5 @@
 Fitter report for synchronous_counter
-Thu Nov 12 15:18:06 2026
+Tue Nov 17 14:33:44 2026
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -62,7 +62,7 @@ on the Quartus Prime software download page.
 +-----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                    ;
 +---------------------------------+-------------------------------------------------+
-; Fitter Status                   ; Successful - Thu Nov 12 15:18:06 2026           ;
+; Fitter Status                   ; Successful - Tue Nov 17 14:33:44 2026           ;
 ; Quartus Prime Version           ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                   ; synchronous_counter                             ;
 ; Top-level Entity Name           ; synchronous_counter                             ;
@@ -91,6 +91,8 @@ on the Quartus Prime software download page.
 ; Option                                                             ; Setting                               ; Default Value                         ;
 +--------------------------------------------------------------------+---------------------------------------+---------------------------------------+
 ; Device                                                             ; 5CSEMA5F31C6                          ;                                       ;
+; Minimum Core Junction Temperature                                  ; 0                                     ;                                       ;
+; Maximum Core Junction Temperature                                  ; 85                                    ;                                       ;
 ; Use smart compilation                                              ; Off                                   ; Off                                   ;
 ; Enable parallel Assembler and Timing Analyzer during compilation   ; On                                    ; On                                    ;
 ; Enable compact report table                                        ; Off                                   ; Off                                   ;
@@ -155,7 +157,7 @@ on the Quartus Prime software download page.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.1%      ;
+;     Processor 2            ;   0.2%      ;
 ;     Processors 3-4         ;   0.1%      ;
 +----------------------------+-------------+
 
@@ -2649,8 +2651,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (119006): Selected device 5CSEMA5F31C6 for design "synchronous_counter"
-Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
-Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
 Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
@@ -2660,11 +2662,13 @@ Info (11178): Promoted 1 clock (1 global)
     Info (11162): clk~inputCLKENA0 with 16 fanout uses global clock CLKCTRL_G10
 Info (184021): Fitter periphery placement operations ending: elapsed time is 00:00:00
 Info (176233): Starting register packing
-Critical Warning (332012): Synopsys Design Constraints File file not found: 'synchronous_counter.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
-Info (332144): No user constrained base clocks found in the design
-Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
-Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
+Info (332104): Reading SDC File: 'synchronous_counter.sdc'
+Info (332152): The following assignments are ignored by the derive_clock_uncertainty command
+Info (332129): Detected timing requirements -- optimizing circuit to achieve only the specified requirements
+Info (332111): Found 1 clocks
+    Info (332111):   Period   Clock Name
+    Info (332111): ======== ============
+    Info (332111):    2.174          clk
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
 Warning (15705): Ignored locations or region assignments to the following nodes
@@ -2939,7 +2943,7 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.51 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.53 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -2947,11 +2951,11 @@ Info (334004): Delay annotation completed successfully
 Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:03
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file C:/Users/s366527/Documents/DigitalElectronics/Lab2/synchronous_counter/synchronous_counter.fit.smsg
-Info: Quartus Prime Fitter was successful. 0 errors, 265 warnings
-    Info: Peak virtual memory: 6673 megabytes
-    Info: Processing ended: Thu Nov 12 15:18:06 2026
-    Info: Elapsed time: 00:00:39
-    Info: Total CPU time (on all processors): 00:01:04
+Info: Quartus Prime Fitter was successful. 0 errors, 264 warnings
+    Info: Peak virtual memory: 6689 megabytes
+    Info: Processing ended: Tue Nov 17 14:33:44 2026
+    Info: Elapsed time: 00:00:38
+    Info: Total CPU time (on all processors): 00:01:05
 
 
 +----------------------------+

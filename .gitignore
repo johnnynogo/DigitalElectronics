@@ -1,0 +1,28 @@
+# Quartus generated
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+qdb/
+tmp-clearbox/
+*.qws
+*.rpt
+*.summary
+*.smsg
+*.done
+*.jdi
+*.pin
+*.sld
+*.sof
+*.pof
+*.qarlog
+*.flock
+
+# Questa generated
+work/
+transcript
+*.wlf
+*.vstf
+modelsim.ini
+*.mpf.bak

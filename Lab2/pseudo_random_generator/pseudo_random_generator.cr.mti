@@ -1,0 +1,67 @@
+C:/Users/s366527/Documents/DigitalElectronics/Lab2/pseudo_random_generator/pseudo_random_generator.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/s366527/Documents/DigitalElectronics/Lab2/pseudo_random_generator/pseudo_random_generator.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pseudo_random_generator
+-- Compiling architecture rtl of pseudo_random_generator
+-- Loading entity se_detector
+-- Loading entity tff
+-- Loading entity nbitsynchcnt
+-- Loading entity ucmp
+-- Loading entity lfsr
+
+} {} {}} C:/Users/s366527/Documents/DigitalElectronics/Lab2/pseudo_random_generator/lfsr.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/s366527/Documents/DigitalElectronics/Lab2/pseudo_random_generator/lfsr.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity lfsr
+-- Compiling architecture rtl of lfsr
+
+} {} {}} C:/Users/s366527/Documents/DigitalElectronics/Lab2/pseudo_random_generator/nbitsynchcnt.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/s366527/Documents/DigitalElectronics/Lab2/pseudo_random_generator/nbitsynchcnt.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity nbitsynchcnt
+-- Compiling architecture rtl of nbitsynchcnt
+
+} {} {}} C:/Users/s366527/Documents/DigitalElectronics/Lab2/pseudo_random_generator/tb_top.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/s366527/Documents/DigitalElectronics/Lab2/pseudo_random_generator/tb_top.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_top
+-- Compiling architecture simulation of tb_top
+-- Loading entity pseudo_random_generator
+
+} {} {}} C:/Users/s366527/Documents/DigitalElectronics/Lab2/pseudo_random_generator/tff.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/s366527/Documents/DigitalElectronics/Lab2/pseudo_random_generator/tff.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tff
+-- Compiling architecture rtl of tff
+
+} {} {}} C:/Users/s366527/Documents/DigitalElectronics/Lab2/pseudo_random_generator/ucmp.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/s366527/Documents/DigitalElectronics/Lab2/pseudo_random_generator/ucmp.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ucmp
+-- Compiling architecture rtl of ucmp
+
+} {} {}} C:/Users/s366527/Documents/DigitalElectronics/Lab2/pseudo_random_generator/se_detector.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/s366527/Documents/DigitalElectronics/Lab2/pseudo_random_generator/se_detector.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity se_detector
+-- Compiling architecture rtl of se_detector
+
+} {} {}}

@@ -111,21 +111,21 @@ init_val[12] => count_reg.DATAB
 init_val[13] => count_reg.DATAB
 init_val[14] => count_reg.DATAB
 init_val[15] => count_reg.DATAB
-count_val[0] <= count_reg[0].DB_MAX_OUTPUT_PORT_TYPE
-count_val[1] <= count_reg[1].DB_MAX_OUTPUT_PORT_TYPE
-count_val[2] <= count_reg[2].DB_MAX_OUTPUT_PORT_TYPE
-count_val[3] <= count_reg[3].DB_MAX_OUTPUT_PORT_TYPE
-count_val[4] <= count_reg[4].DB_MAX_OUTPUT_PORT_TYPE
-count_val[5] <= count_reg[5].DB_MAX_OUTPUT_PORT_TYPE
-count_val[6] <= count_reg[6].DB_MAX_OUTPUT_PORT_TYPE
-count_val[7] <= count_reg[7].DB_MAX_OUTPUT_PORT_TYPE
-count_val[8] <= count_reg[8].DB_MAX_OUTPUT_PORT_TYPE
-count_val[9] <= count_reg[9].DB_MAX_OUTPUT_PORT_TYPE
-count_val[10] <= count_reg[10].DB_MAX_OUTPUT_PORT_TYPE
-count_val[11] <= count_reg[11].DB_MAX_OUTPUT_PORT_TYPE
-count_val[12] <= count_reg[12].DB_MAX_OUTPUT_PORT_TYPE
-count_val[13] <= count_reg[13].DB_MAX_OUTPUT_PORT_TYPE
-count_val[14] <= count_reg[14].DB_MAX_OUTPUT_PORT_TYPE
-count_val[15] <= count_reg[15].DB_MAX_OUTPUT_PORT_TYPE
+count_val[0] << count_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+count_val[1] << count_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+count_val[2] << count_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+count_val[3] << count_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+count_val[4] << count_reg[4].DB_MAX_OUTPUT_PORT_TYPE
+count_val[5] << count_reg[5].DB_MAX_OUTPUT_PORT_TYPE
+count_val[6] << count_reg[6].DB_MAX_OUTPUT_PORT_TYPE
+count_val[7] << count_reg[7].DB_MAX_OUTPUT_PORT_TYPE
+count_val[8] << count_reg[8].DB_MAX_OUTPUT_PORT_TYPE
+count_val[9] << count_reg[9].DB_MAX_OUTPUT_PORT_TYPE
+count_val[10] << count_reg[10].DB_MAX_OUTPUT_PORT_TYPE
+count_val[11] << count_reg[11].DB_MAX_OUTPUT_PORT_TYPE
+count_val[12] << count_reg[12].DB_MAX_OUTPUT_PORT_TYPE
+count_val[13] << count_reg[13].DB_MAX_OUTPUT_PORT_TYPE
+count_val[14] << count_reg[14].DB_MAX_OUTPUT_PORT_TYPE
+count_val[15] << count_reg[15].DB_MAX_OUTPUT_PORT_TYPE
 
 

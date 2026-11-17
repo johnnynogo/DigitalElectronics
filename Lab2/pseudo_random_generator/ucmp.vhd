@@ -7,17 +7,17 @@ entity ucmp is
         N : positive := 27
     );
     port (
-        A  : in  unsigned(N - 1 downto 0);
-        B  : in  unsigned(N - 1 downto 0);
-        LT : out std_logic;
-        EQ : out std_logic;
-        GT : out std_logic
+        a  : in  unsigned(N - 1 downto 0);
+        b  : in  unsigned(N - 1 downto 0);
+        lt : out std_logic;
+        eq : out std_logic;
+        gt : out std_logic
     );
 end entity ucmp;
 
 architecture rtl of ucmp is
 begin
-    LT <= '1' when A < B else '0';
-    EQ <= '1' when A = B else '0';
-    GT <= '1' when A > B else '0';
+    lt <= '1' when a < b else '0';
+    eq <= '1' when a = b else '0';
+    gt <= '1' when a > b else '0';
 end architecture rtl;
